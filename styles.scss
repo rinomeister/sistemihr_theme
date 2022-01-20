@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+$font-family-sans-serif:
+    "Oswald", Helvetica,sans-serif;
+
+    
+
+#prvisection{
+    width: 100%;
+    height: 100vh;
+    background-image:url(/img/leone-venter-pVt9j3iWtPM-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*@mixin make-container() {
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    width: 100vh; 
+    text-align:right;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}*/
+@mixin rezolucija-slike() {
+    width: 400px;
+    height: 700px;
+}
+
+.custom-container {
+    @include rezolucija-slike();
+}
+  
+  
+#prvitext{
+    margin-top: 400px;
+}
+
+#carderino{
+    border: none;
+}
+
+.fa-gem{
+    padding: 0px 5px 0px 5px;
+}
+@import "node_modules/bootstrap/scss/bootstrap.scss";
